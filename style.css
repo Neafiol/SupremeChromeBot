@@ -1,0 +1,69 @@
+body{
+    width: 600px;
+}
+.ltext{
+    color: red;
+    font-family: Consolas;
+    width: 100%;
+    text-align: center 
+}
+.col1{
+    float: left;
+    display: block;
+    width: 42%;
+    margin-left:3%;
+}
+.col2{
+    float: right;
+    display: block;
+    width: 42%;
+    margin-right:3%;
+}
+.input{
+    margin: 5px;
+    font-family: Consolas;
+    border: 2px darkred solid;
+    border-radius: 5px;
+    padding: 4px;
+    size: 20px;
+    box-shadow: 0.3em 0.3em 0.3px rgb(228, 171, 171) ;
+    width: 100%;
+}
+.form{
+    padding: 7px;
+    align-self: center;
+    opacity: 10 ;
+}
+.select{
+    margin: 5px;
+    font-family: Consolas;
+    border: 2px darkred solid;
+    border-radius: 5px;
+    padding: 4px;
+    size: 20px;
+    box-shadow: 0.3em 0.3em 0.3px rgb(228, 171, 171) ;
+    width: 100%;
+}
+#btngo{
+    font-family: Consolas;
+    background-color: tomato;
+    color: white;
+    border: darkred solid;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    float: right;
+    text-align:center;
+    padding: 3px;
+}
+#btngo :hover{
+    background-color: darkorange;
+
+}
+#btngo:active{
+    background: darkred;
+}
+
+#Country{
+    margin-top: 40px;
+}

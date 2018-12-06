@@ -1,0 +1,57 @@
+﻿{
+    "manifest_version": 2,
+
+    "name": "SuperBot",
+    "version": "1.0",
+
+    "icons": {
+
+    },
+    "permissions": [
+        "activeTab",
+        "proxy",
+        "storage",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>",
+        "tabs",
+        "http://*/*",
+        "proxy",
+        "\u003Call_urls>",
+        "cookies",
+         "http://www.google.com/*"
+      ],
+     
+
+      "content_scripts": [
+        {
+          "matches": [
+            "*://www.supremenewyork.com/*",
+            "*://www.supremenewyork.com/shop/*"
+          ],
+          "js": [
+            "/jquery-3.3.1.min.js",
+            "/popup.js"
+          ],
+         
+          "run_at": "document_end"
+        }
+      ],
+      "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+
+
+   "browser_action": {
+        "default_title": "Открыть бот",
+        "default_icon": "48x48.png",
+        "default_popup": "popup.html"
+    },
+  "background": {
+    "scripts": ["code/javascript/jquery-3.3.1.js", "background.js"],
+    "persistent" : true
+  },
+    "web_accessible_resources" : [
+        "/bot.js",
+        "/shoppage.js",
+        "/shoppage2.js"
+      ]
+}

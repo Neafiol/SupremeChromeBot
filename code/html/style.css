@@ -1,0 +1,52 @@
+body{
+    width: 600px;
+}
+.ltext{
+    color: red;
+    font-family: Consolas;
+    width: 100%;
+    text-align: center 
+}
+
+.input{
+    margin: 5px;
+    font-family: Consolas;
+    border: 2px darkred solid;
+    border-radius: 5px;
+    padding: 4px;
+    size: 20px;
+    box-shadow: 0.3em 0.3em 0.3px rgb(228, 171, 171) ;
+    width: 100%;
+}
+.form{
+    padding: 7px;
+    align-self: center;
+    opacity: 10 ;
+}
+.select{
+    margin: 5px;
+    font-family: Consolas;
+    border: 2px darkred solid;
+    border-radius: 5px;
+    padding: 4px;
+    size: 20px;
+    box-shadow: 0.3em 0.3em 0.3px rgb(228, 171, 171) ;
+    width: 100%;
+}
+#btngo{
+    float: left;
+    font-family: Consolas;
+    size: 25px;
+    margin-top  : 5%;
+}
+#btngo :hover{
+    background-color: darkorange;
+
+}
+#btngo:active{
+    background: darkred;
+}
+
+#Country{
+    margin-top: 40px;
+}
